@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 90%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased text-white bg-black;
+  }
+}
