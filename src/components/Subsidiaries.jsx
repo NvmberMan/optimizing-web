@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
 import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.svg';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
-import creativeSolution from '../assets/subsidiaries/creative_design.webp';
+import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.svg';
 import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.svg';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
 import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.svg';
@@ -66,7 +66,7 @@ const Subsidiaries = () => {
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1 }}
                             transition={{ type: "spring", stiffness: 300 }}
-                            className="flex flex-col items-center justify-center p-4 cursor-pointer block"
+                            className="flex flex-col items-center justify-center p-4 cursor-pointer "
                             onClick={(e) => {
                                 if (sub.website === "#") e.preventDefault();
                             }}
@@ -79,6 +79,8 @@ const Subsidiaries = () => {
                                         transform: `scale(${sub.scale})`
                                     }}
                                     className="object-contain max-w-full max-h-full opacity-90 hover:opacity-100 transition-opacity"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <p className="text-[14px] text-gray-400 text-center px-2 leading-relaxed whitespace-pre-line">{sub.tag}</p>

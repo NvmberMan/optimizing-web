@@ -9,7 +9,7 @@ import portfolioImg4 from '../assets/portofolios/portofolio_04.png';
 import portfolioImg5 from '../assets/portofolios/portofolio_10.png';
 import portfolioImg6 from '../assets/portofolios/portofolio_06.png';
 import portfolioImg7 from '../assets/portofolios/portofolio_13.png';
-import portfolioImg8 from '../assets/portofolios/portofolio_08.png';
+import portfolioImg8 from '../assets/portofolios/portofolio_08.webp';
 import portfolioImg9 from '../assets/portofolios/portofolio_09.png';
 
 import totalLogo from '../assets/clients/total_e_p_indonesia.png';
@@ -59,7 +59,7 @@ import uniquipLogo from '../assets/clients/uniquip.png';
 import flexindoLogo from '../assets/clients/flexindo.png';
 import angkasaPuraLogo from '../assets/clients/angkasapura.png';
 
-import portofolioHeroBg from '../assets/portofolio_hero_bg.JPG';
+import portofolioHeroBg from '../assets/portofolio_hero_bg.webp';
 
 // Marquee Component with CSS animation for pause-on-hover support
 const Marquee = ({ items, direction = "left", speed = 40 }) => {
@@ -101,6 +101,7 @@ const Marquee = ({ items, direction = "left", speed = 40 }) => {
                                 }}
                                 className={`h-16 md:h-20 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-80 hover:opacity-100 ${item.className || ''}`}
                                 loading="lazy"
+                                decoding="async"
                             />
                         ) : (
                             <span className="text-xl md:text-2xl font-bold uppercase text-gray-300 hover:text-black transition-colors duration-300 cursor-default select-none">
@@ -218,6 +219,8 @@ const Portfolio = () => {
                         alt="Portfolio Hero"
                         className="w-full h-full object-cover opacity-90"
                         fetchPriority="high"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent"></div>
                 </div>
@@ -301,6 +304,7 @@ const Portfolio = () => {
                                                     alt={`Portfolio ${i}`}
                                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                                     loading="lazy"
+                                                    decoding="async"
                                                 />
                                             </div>
                                             <div className="absolute inset-0 bg-purple-900/0 group-hover:bg-purple-900/20 transition-colors duration-300"></div>

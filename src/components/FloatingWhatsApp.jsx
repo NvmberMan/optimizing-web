@@ -16,6 +16,8 @@ const FloatingWhatsApp = () => {
                     src={whatsappIcon}
                     alt="WhatsApp"
                     className="w-full h-full object-contain"
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
             <div className="bg-gray-800/80 backdrop-blur-sm text-white px-4 py-1.5 rounded-full text-sm font-medium shadow-lg border border-white/20 group-hover:bg-purple-900/90 transition-colors">

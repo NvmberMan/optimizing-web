@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import heroBackground from "../assets/about_hero5.png"
+import heroBackground from "../assets/about_hero5.webp"
 
 const StoryTimeline = () => {
     const { t } = useLanguage();
@@ -67,6 +67,8 @@ const AboutUs = () => {
                         src={heroBackground}
                         alt="About Us Hero"
                         className="w-full h-full object-cover opacity-50"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent"></div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
-import bedankaLogo from '../assets/navbar_logo_bedanka_group.svg';
+import bedankaLogo from '../assets/navbar_logo_bedanka_group.webp';
 
 import { useLanguage } from '../context/LanguageContext';
 
@@ -20,6 +20,8 @@ const Footer = () => {
                                 alt="Bedanka Logo"
                                 className="h-auto"
                                 width={"200px"}
+                                loading="lazy"
+                                decoding="async"
                             />
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed md:max-w-sm">

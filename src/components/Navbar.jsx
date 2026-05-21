@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Search } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import bedankaLogo from '../assets/navbar_logo_bedanka_group.svg';
+import bedankaLogo from '../assets/navbar_logo_bedanka_group.webp';
 import DevelopmentNotice from './DevelopmentNotice';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -39,6 +39,8 @@ const Navbar = () => {
                             src={bedankaLogo}
                             alt="Bedanka Logo"
                             className="w-20"
+                            loading="lazy"
+                            decoding="async"
                         />
                     </Link>
 

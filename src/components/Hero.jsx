@@ -2,11 +2,11 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import herobackground from "../assets/herobackground.png"
+import herobackground from "../assets/herobackground.webp"
 
 import { useLanguage } from '../context/LanguageContext';
 
-const Hero = () => {
+const Hero = () => {    
     const { t } = useLanguage();
     return (
         <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
@@ -22,6 +22,8 @@ const Hero = () => {
                     alt="Office Background"
                     className="w-full h-full object-cover"
                     fetchPriority="high"
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
 

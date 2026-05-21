@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Mail, Linkedin, Instagram, Youtube, MapPin, FileText } from 'lucide-react';
-import heroBackground from '../assets/connect_hero.png';
+import heroBackground from '../assets/connect_hero.webp';
 import { useLanguage } from '../context/LanguageContext';
 
 const Contact = () => {
@@ -17,6 +17,8 @@ const Contact = () => {
                         src={heroBackground}
                         alt="Contact Hero"
                         className="w-full h-full object-cover object-[center_25%] opacity-50 posy"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent"></div>
                 </div>

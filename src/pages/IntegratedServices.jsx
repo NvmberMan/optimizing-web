@@ -8,7 +8,7 @@ import heroBackground from '../assets/integrated_services_hero.png';
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
 import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.svg';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
-import creativeSolution from '../assets/subsidiaries/creative_design.webp';
+import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.svg';
 import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.svg';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
 import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.svg';
@@ -26,19 +26,19 @@ import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.svg';
 
 
 //background
-import bgBedankaEvent from '../assets/integrated_services/bedanka_event_management.png';
-import bgCreativeSolution from '../assets/integrated_services/creative_soludion.png';
+import bgBedankaEvent from '../assets/integrated_services/bedanka_event_management.webp';
+import bgCreativeSolution from '../assets/integrated_services/creative_soludion.webp';
 import bgProdesign from '../assets/integrated_services/prodesign.png';
-import bgMarchendnice from '../assets/integrated_services/merchandise.png';
-import bgEventSafety from '../assets/integrated_services/event_safety.png';
+import bgMarchendnice from '../assets/integrated_services/merchandise.webp';
+import bgEventSafety from '../assets/integrated_services/event_safety.webp';
 import bgInnerspeaker from '../assets/integrated_services/innerspeaker.png';
-import bgDejavu from '../assets/integrated_services/dejavu_adventure.png';
-import bgSeolahSekolah from '../assets/integrated_services/seolah_sekolah.png';
+import bgDejavu from '../assets/integrated_services/dejavu_adventure.webp';
+import bgSeolahSekolah from '../assets/integrated_services/seolah_sekolah.webp';
 import bgPPro from '../assets/integrated_services/ppro.png';
 import bgWafira from '../assets/integrated_services/wafira.png';
 import bgStrategicius from '../assets/integrated_services/strategicius.png';
 import bgVaolav from '../assets/integrated_services/vaclav.png';
-import bgDanaMitra from '../assets/integrated_services/lingkungan.png';
+import bgDanaMitra from '../assets/integrated_services/lingkungan.webp';
 import bgBridgeCsr from '../assets/integrated_services/bridge_csr.png';
 import bgSadarin from '../assets/integrated_services/sadarin.png';
 import bgSadarinResources from '../assets/integrated_services/sadarin_resources.png';
@@ -82,6 +82,8 @@ const IntegratedServices = () => {
                         alt="Integrated Services Hero"
                         className="w-full h-full object-cover opacity-60"
                         fetchPriority="high"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
                 </div>
@@ -127,6 +129,7 @@ const IntegratedServices = () => {
                                 alt={sub.name}
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                 loading="lazy"
+                                decoding="async"
                             />
                             <div className="absolute inset-0 bg-black/60 group-hover:bg-black/40 transition-colors duration-500 flex flex-col items-center justify-center text-center px-6">
                                 <div className="w-30 h-40 overflow-hidden flex items-center justify-center">
@@ -137,6 +140,7 @@ const IntegratedServices = () => {
                                         className="w-full h-full object-contain p-2"
                                         style={{ transform: `scale(${sub.scale || 1})` }}
                                         loading="lazy"
+                                        decoding="async"
                                     />
                                 </div>
                                 <h3 className="text-3xl font-bold mb-2">{sub.name}</h3>

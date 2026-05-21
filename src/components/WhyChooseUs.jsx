@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import EndToEnd from '../assets/home_end_to_end.svg';
 import Strategic from '../assets/home_strategic.svg';
 import Collaborative from '../assets/home_collaborative.svg';
-import aboutbackground from "../assets/portofolios/portofolio_08.png"
+import aboutbackground from "../assets/portofolios/portofolio_08.webp"
 import portfolioImg7 from '../assets/portofolios/portofolio_13.png';
 
 import { useLanguage } from '../context/LanguageContext';
@@ -71,6 +71,8 @@ const WhyChooseUs = () => {
                                             src={item.icon}
                                             alt={item.title}
                                             className="w-full h-full object-contain p-2"
+                                            loading="lazy"
+                                            decoding="async"
                                         />
                                     </div>
 
@@ -101,6 +103,8 @@ const WhyChooseUs = () => {
                             src={aboutbackground}
                             alt="Team Collaboration"
                             className="w-full h-full object-cover"
+                            loading="lazy"
+                            decoding="async"
                         />
                         {/* Overlay Gradient */}
                         <div className="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>

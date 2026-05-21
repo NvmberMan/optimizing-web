@@ -33,11 +33,13 @@ const CoreValues = () => {
             {/* Background Overlay */}
             <div className="absolute inset-0 opacity-40">
                 <img
-                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=75&w=1920"
                     alt="Team Meeting"
                     className="w-full h-full object-cover grayscale"
+                    loading="lazy"
+                    decoding="async"
                 />
-                <div className="absolute inset-0 bg-black/80"></div>
+                <div className="absolute inset-0 bg-black/80 text-red-500">halooooo</div>
             </div>
 
             <div className="container relative z-10 mx-auto px-8 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -58,6 +60,8 @@ const CoreValues = () => {
                                     src={item.image}
                                     alt={item.title}
                                     className="w-full h-full object-cover transition-opacity"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <div className="flex flex-col">
