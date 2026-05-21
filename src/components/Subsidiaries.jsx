@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
-import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.svg';
+import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.webp';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
 import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.svg';
 import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.svg';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
-import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.svg';
+import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.webp';
 import innerspeaker from '../assets/subsidiaries/subsidiaries_innerspeaker.svg';
 import marchendnice from '../assets/subsidiaries/subsidiaries_marchendnice.svg';
 import prodesign from '../assets/subsidiaries/subsidiaries_prodesign.svg';
@@ -19,7 +19,7 @@ import trainingDev from '../assets/subsidiaries/subsidiaries_training_and_develo
 import vaolav from '../assets/subsidiaries/subsidiaries_vaolav.svg';
 import wafira from '../assets/subsidiaries/subsidiaries_wafira_learning_center.svg';
 import ppro from '../assets/subsidiaries/subsidiaries_ppro.svg';
-import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.svg';
+import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.webp';
 
 import { useLanguage } from '../context/LanguageContext';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import EndToEnd from '../assets/home_end_to_end.svg';
-import Strategic from '../assets/home_strategic.svg';
-import Collaborative from '../assets/home_collaborative.svg';
+import EndToEnd from '../assets/home_end_to_end.webp';
+import Strategic from '../assets/home_strategic.webp';
+import Collaborative from '../assets/home_collaborative.webp';
 import aboutbackground from "../assets/portofolios/portofolio_08.webp"
 import portfolioImg7 from '../assets/portofolios/portofolio_13.png';
 

@@ -2,16 +2,16 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 
-import heroBackground from '../assets/integrated_services_hero.png';
+import heroBackground from '../assets/integrated_services_hero.webp';
 
 //logo
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
-import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.svg';
+import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.webp';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
 import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.svg';
 import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.svg';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
-import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.svg';
+import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.webp';
 import innerspeaker from '../assets/subsidiaries/inner.svg';
 import marchendnice from '../assets/subsidiaries/subsidiaries_marchendnice.svg';
 import prodesign from '../assets/subsidiaries/prodesign.svg';
@@ -22,26 +22,26 @@ import strategicius from '../assets/subsidiaries/subsidiaries_strategicius.svg';
 import vaolav from '../assets/subsidiaries/subsidiaries_vaolav.svg';
 import wafira from '../assets/subsidiaries/subsidiaries_wafira_learning_center.svg';
 import ppro from '../assets/subsidiaries/subsidiaries_ppro.svg';
-import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.svg';
+import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.webp';
 
 
 //background
 import bgBedankaEvent from '../assets/integrated_services/bedanka_event_management.webp';
 import bgCreativeSolution from '../assets/integrated_services/creative_soludion.webp';
-import bgProdesign from '../assets/integrated_services/prodesign.png';
+import bgProdesign from '../assets/integrated_services/prodesign.webp';
 import bgMarchendnice from '../assets/integrated_services/merchandise.webp';
 import bgEventSafety from '../assets/integrated_services/event_safety.webp';
-import bgInnerspeaker from '../assets/integrated_services/innerspeaker.png';
+import bgInnerspeaker from '../assets/integrated_services/innerspeaker.webp';
 import bgDejavu from '../assets/integrated_services/dejavu_adventure.webp';
 import bgSeolahSekolah from '../assets/integrated_services/seolah_sekolah.webp';
-import bgPPro from '../assets/integrated_services/ppro.png';
+import bgPPro from '../assets/integrated_services/ppro.webp';
 import bgWafira from '../assets/integrated_services/wafira.png';
-import bgStrategicius from '../assets/integrated_services/strategicius.png';
+import bgStrategicius from '../assets/integrated_services/strategicius.webp';
 import bgVaolav from '../assets/integrated_services/vaclav.png';
 import bgDanaMitra from '../assets/integrated_services/lingkungan.webp';
-import bgBridgeCsr from '../assets/integrated_services/bridge_csr.png';
-import bgSadarin from '../assets/integrated_services/sadarin.png';
-import bgSadarinResources from '../assets/integrated_services/sadarin_resources.png';
+import bgBridgeCsr from '../assets/integrated_services/bridge_csr.webp';
+import bgSadarin from '../assets/integrated_services/sadarin.webp';
+import bgSadarinResources from '../assets/integrated_services/sadarin_resources.webp';
 import bgAssetra from '../assets/integrated_services/assetra_management.png';
 import bgAlphaTheta from '../assets/integrated_services/training_and_development.png';
 
