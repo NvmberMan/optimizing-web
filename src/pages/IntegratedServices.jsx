@@ -8,7 +8,7 @@ import heroBackground from '../assets/integrated_services_hero.webp';
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
 import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.webp';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
-import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.webp';
+import creativeSolution from '../assets/subsidiaries/creative_design.webp';
 import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.webp';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
 import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.webp';
