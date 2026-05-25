@@ -2,6 +2,10 @@ import React, { useRef } from 'react';
 import { Instagram, Linkedin, Youtube, Facebook, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import LinkedInCard from './atom/LinkedinCard';
+import linkedin1 from '../assets/linkedin/linkedin-01.webp';
+import linkedin2 from '../assets/linkedin/linkedin-02.webp';
+import linkedin3 from '../assets/linkedin/linkedin-03.webp';
+import linkedin4 from '../assets/linkedin/linkedin-04.webp';
 
 const SocialConnect = () => {
     const { t } = useLanguage();
@@ -11,19 +15,22 @@ const SocialConnect = () => {
         {
             index: 0,
             link: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7419970013111107584?compact=1",
+            preview: linkedin1
         }, 
         {
             index: 1,
             link:"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7409560797498122241?compact=1",
+            preview: linkedin2
         },
         {
             index: 2,
             link: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7413831965184995328?compact=1",
+            preview: linkedin3
         }, 
         {
             index: 3,
             link:"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7412077232199954432?compact=1",
-
+            preview: linkedin4
         }        
     ];
 
@@ -41,11 +48,10 @@ const SocialConnect = () => {
             <div className="container mx-auto px-4 md:px-8">
                 <div className="mb-12 text-left px-4">
                     <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-wide mb-2">
-                        {/* {t('socialConnect.title')} */}
-                        <p className="text-lg">SOCIAL CONNECT</p>
+                        {t('socialConnect.title')}
                     </h2>
                     <div className="flex items-center gap-2 text-gray-400 text-lg">
-                        {/* <span>{t('socialConnect.follow')}</span> */}
+                        <span>{t('socialConnect.follow')}</span>
                         <a href="https://www.linkedin.com/company/bedanka-interubber-indonesia/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors group">
                             <Linkedin size={24} className="text-white group-hover:text-blue-400 transition-colors" />
                             <span className="font-bold text-white border-b border-transparent group-hover:border-white">Linkedin</span>
@@ -71,6 +77,7 @@ const SocialConnect = () => {
                     </button> */}
 
                     {/* Carousel Container */}
+                     {/* <img src={linkedin1} alt="LinkedIn Preview" className="w-full h-full object-cover" /> */}
                     <div
                         ref={scrollRef}
                         className="flex overflow-x-auto gap-6 pb-4 snap-x snap-mandatory scrollbar-hide"
@@ -81,6 +88,7 @@ const SocialConnect = () => {
                             key={post.index}
                             url = {post.link}
                             index = {post.index}
+                            previewImage = {post.preview}
                             />
                         ))}
                     </div>

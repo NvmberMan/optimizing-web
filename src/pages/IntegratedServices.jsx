@@ -8,8 +8,8 @@ import heroBackground from '../assets/integrated_services_hero.webp';
 import assetra from '../assets/subsidiaries/subsidiaries_assetra_management.svg';
 import bedankaEvent from '../assets/subsidiaries/subsidiaries_bedanka_event.webp';
 import bridgeCsr from '../assets/subsidiaries/subsidiaries_bridge_csr.svg';
-import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.svg';
-import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.svg';
+import creativeSolution from '../assets/subsidiaries/subsidiaries_creative_solution.webp';
+import danaMitra from '../assets/subsidiaries/subsidiaries_dana_mitra.webp';
 import dejavu from '../assets/subsidiaries/subsidiaries_dejavu_adventure.svg';
 import eventSafety from '../assets/subsidiaries/subsidiaries_event_safety_management_servce.webp';
 import innerspeaker from '../assets/subsidiaries/inner.svg';
@@ -17,11 +17,11 @@ import marchendnice from '../assets/subsidiaries/subsidiaries_marchendnice.svg';
 import prodesign from '../assets/subsidiaries/prodesign.svg';
 import sadarin from '../assets/subsidiaries/subsidiaries_sadarin.svg';
 import sadarinResources from '../assets/subsidiaries/subsidiaries_sadarin_resources.svg';
-import seolahSekolah from '../assets/subsidiaries/subsidiaries_seolah_sekolah.svg';
+import seolahSekolah from '../assets/subsidiaries/subsidiaries_seolah_sekolah.webp';
 import strategicius from '../assets/subsidiaries/subsidiaries_strategicius.svg';
 import vaolav from '../assets/subsidiaries/subsidiaries_vaolav.svg';
-import wafira from '../assets/subsidiaries/subsidiaries_wafira_learning_center.svg';
-import ppro from '../assets/subsidiaries/subsidiaries_ppro.svg';
+import wafira from '../assets/subsidiaries/subsidiaries_wafira_learning_center.webp';
+import ppro from '../assets/subsidiaries/subsidiaries_ppro.webp';
 import alphatheta from '../assets/subsidiaries/subsidiaries_alphatheta.webp';
 
 
